@@ -112,10 +112,9 @@ a:hover {
     margin-bottom: -100px;
 }
 
-.about {
+.about, .contact {
     background-color: #ffffff;
     width: 650px;
-    height: 470px;
     border: 1px solid #cccccc;
     float: left;
 }
@@ -133,6 +132,37 @@ a:hover {
     display: block;
     border-bottom: 2px solid #cccccc;
     margin: 12px 0 25px 0;
+}
+
+/* CONTACT */
+.contact input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 80%;
+}
+
+input[type="text"],
+textarea {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+form p {
+    padding-bottom: 5px;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+input[type=submit] {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    width: 100px;
 }
 
 /* FOOTER */
