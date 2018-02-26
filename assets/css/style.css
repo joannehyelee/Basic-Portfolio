@@ -33,7 +33,7 @@ a {
     color: #777777;
 }
 
-a:hover {
+a:hover, a:active {
     text-decoration: underline;
 }
 
